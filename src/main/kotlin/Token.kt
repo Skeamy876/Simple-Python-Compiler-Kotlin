@@ -2,7 +2,7 @@ class Token(var type: TYPE, val value: Any?) {
 
     //TODO: implement regex matching for call token matching
     companion object{
-        val DIGITS = "0123456789"
+        val DIGITS = "0123456789."
 
     }
     override fun toString(): String {

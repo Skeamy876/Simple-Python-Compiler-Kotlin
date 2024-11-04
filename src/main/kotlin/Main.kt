@@ -1,5 +1,5 @@
  fun main(){
-     val lexer = Lexer("<stdin>","3+3")
+     val lexer = Lexer("<stdin>","3+3.5")
      lexer.proccessNextChar()
      val (result,error)= lexer.createTokens()
 
